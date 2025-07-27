@@ -1,0 +1,6 @@
+[en enc eng eni ena enz default]
+TAG_M14K="Buger M14/AC ''Micro Seven''"; //Automatic, Compact
+M14K_HELP_FIREMODE="  Semi/Auto\n";
+M14K_HELP_RELOAD="  Reload magazine\n";
+M14K_HELP_ALTRELOAD="  Load magazine with clip\n";
+M14K_HELP_ALTRELOAD2="  Load magazine with loose rounds\n";

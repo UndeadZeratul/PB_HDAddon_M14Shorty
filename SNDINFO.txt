@@ -1,0 +1,14 @@
+//M14 Short
+$alias weapons/m14kshot	weapons/bigrifle
+
+$alias weapons/m14kclick weapons/libclick
+$alias weapons/m14kclick2 weapons/libclick2
+$alias weapons/m14kload weapons/libload
+$alias weapons/m14kunload weapons/libunload
+
+weapons/m14kboltback	"Sounds/Weapons/M14K/M14BoltBack.ogg"
+weapons/m14kboltfwd		"Sounds/Weapons/M14K/M14BoltFwd.ogg"
+
+weapons/m14kbolt		"Sounds/Weapons/M14K/M14Bolt.ogg"
+weapons/m14kboltlock	"Sounds/Weapons/M14K/M14BoltLock.ogg"
+
