@@ -1,3 +1,0 @@
-GameInfo {
-	AddEventHandlers = "PB_AmmoHandler_M14K","PB_M14K_Spawner"
-}

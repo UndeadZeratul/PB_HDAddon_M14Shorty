@@ -1,0 +1,9 @@
+// M14 Spawn Entries
+addSpawnTableSingleEntry => { "enabled": "#PB_M14K_Spawns", "tableName": "SuperShotgunReplaces", "name": "HD_M14K_Random", "weight": "0.777", "persists": "true" }
+addSpawnTableSingleEntry => { "enabled": "#PB_M14K_Spawns", "tableName": "PlasmaRifleReplaces", "name": "HD_M14K_Random", "weight": "0.58333", "persists": "true" }
+
+// Ammo Usages
+addAmmoUser => { "ammoName": "HD7mMag", "name": "HD_M14Short" }
+addAmmoUser => { "ammoName": "HD7mClip", "name": "HD_M14Short" }
+addAmmoUser => { "ammoName": "SevenMilAmmo", "name": "HD_M14Short" }
+addAmmoUser => { "ammoName": "SevenMilAmmoRecast", "name": "HD_M14Short" }
