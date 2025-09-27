@@ -931,6 +931,10 @@ class HD_M14Short:HDWeapon{
 			weaponstatus[0]|=M14F_SIGHT;
 			if(xhdot>=0)weaponstatus[M14G_DOT]=xhdot;
 		}
+
+		int firemode=getloadoutvar(input,"firemode",1);
+		if(firemode>0)weaponstatus[0]|=M14F_FULLAUTO;
+		else weaponstatus[0]&=~M14F_FULLAUTO;
 	}
 }
 
