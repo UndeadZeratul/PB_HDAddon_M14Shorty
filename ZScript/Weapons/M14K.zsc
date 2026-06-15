@@ -25,7 +25,7 @@ class HD_M14Short:HDWeapon{
 		//$Sprite "M14PA0"
 
 		+hdweapon.fitsinbackpack
-		obituary "%o battled with %k and lost.";
+		obituary "$OB_M14K";
 		weapon.selectionorder 6;
 		weapon.slotpriority 1.25;
 		weapon.slotnumber 6;
@@ -33,9 +33,10 @@ class HD_M14Short:HDWeapon{
 		weapon.bobrangex 0.3;
 		weapon.bobrangey 0.9;
 		scale 0.65;
-		inventory.pickupmessage "You got the 7.76mm Carbine!";
+		inventory.pickupmessage "$PICKUP_M14K";
 		hdweapon.barrelsize 27,0.5,1;
 		tag "$TAG_M14K";
+		inventory.icon "M14GX0";
 		hdweapon.refid HDLD_M14SHORT;
 		hdweapon.loadoutcodes "
 			\cufiremode - 0/1, semi/auto
